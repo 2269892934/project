@@ -1,0 +1,1572 @@
+.wrapper{
+    width: 100%;
+}
+.header{
+    width: 1000px;
+    height: 66px;
+    margin: 0 auto;
+    position: relative;
+}
+.header .donate{
+    position: relative;
+    z-index: 12;
+}
+.header .donate .pic1 a{
+    float: right;
+    margin:14px 0px 2px 10px;
+}
+.header .donate .pic2 a{
+    float: right;
+    margin: 12px 10px 0px 0px;
+}
+.header .donate .pic1 img{
+    width: 194px;
+    height: 16px;
+}
+.header .donate .pic2 img{
+    width: 120px;
+    height: 20px;
+}
+.header .logo{
+    float: left;
+    width: 130px;
+    height: 46px;
+    padding: 10px 0 0 15px;
+}
+.header .logo a img{
+    width: 130px;
+    height: 46px;
+}
+.header div.login{
+    float: right;
+    width: 352px;
+    padding-top: 32px;
+    position: absolute;
+    right: 0;
+    z-index: 11;
+}
+.line{
+    float: left;
+    position: absolute;
+    width: 1px;
+    line-height: 15px;
+    margin: 10px 0 0 5px;
+    background-color: #cccccc;
+    overflow: hidden;
+}
+.login .user{
+    width: 98px;
+    height: 31px;
+    padding-top: 4px;
+}
+.login > div{
+    float: left;
+    position: relative;
+}
+.login .user .login-1{
+    float: left;
+    width: 98px;
+    height: 24px;
+    margin-top: 3px;
+}
+.login  a{
+    font-size: 12px;
+    color: #666;
+    background-image: url("../image/icons.png");
+}
+.login .user .login-1 a.dl{
+    float: left;
+    margin-left: 6px;
+    cursor: pointer;
+    padding: 4px 0 4px 20px;
+    background-position: 0 5px;
+}
+.login .user .login-1 a.zc{
+    float: right;
+    /*position: absolute;*/
+    padding: 4px 0 4px 18px;
+    background-position: 2px 5px;
+    background-image: url("../image/2.gif");
+    background-repeat: no-repeat;
+}
+.login .search{
+    width: 44px;
+    height: 24px;
+    padding: 1px 0 0 6px;
+    margin-top: 6px;
+}
+.login .search a.searchBtn{
+    padding: 4px 0 4px 20px;
+    background-position: -96px 6px;
+}
+.login .ifengNews{
+    width: 85px;
+    height: 14px;
+    margin-left: 2px;
+    line-height: 14px;
+    padding: 10px 0 0 9px;
+}
+.login .ifengNews a{
+    position: relative;
+    top: -3px;
+    float: left;
+    padding: 4px 0 4px 18px;
+    background-image: url("../image/ifeng.65353094.gif");
+    background-repeat: no-repeat;
+    background-position: 2px 5px;
+}
+.login .phtv{
+    float: right;
+    width: 90px;
+    height: 16px;
+    padding: 10px 0 0 9px;
+}
+.login .phtv a{
+    position: absolute;
+    width: 70px;
+    height: 16px;
+    padding-left: 20px;
+    background-image: url("../image/phtv.1d89f4ad.gif");
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: #f54343;
+}
+.nav .navMenu{
+    width: 1000px;
+    height: 40px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #f54343;
+}
+.nav .navMenu li{
+    float: left;
+    width: 58px;
+    text-align: center;
+    height: 29px;
+    line-height: 20px;
+    padding-top: 9px;
+    background-image: url("../image/line.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.nav .navMenu li a{
+    font-size: 16px;
+    color: #fff;
+}
+.nav .navMenu li a:hover{
+    text-decoration: underline;
+}
+.subnav{
+    width: 1000px;
+    margin: 0 auto;
+}
+.subnav .subnavMenu{
+    padding-left: 5px;
+}
+.subnav .subnavMenu li{
+    float: left;
+    width: 52px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+.subnav .subnavMenu > li+li:before{
+    content: '|';
+    height: 0;
+    overflow: hidden;
+    width: 1px;
+    height: 15px;
+    line-height: 15px;
+    color: #cccccc;
+    position: relative;
+    left: -12px;
+    top: 2px;
+}
+.subnav .subnavMenu li a{
+    font-size: 14px;
+    color: #2b2b2b
+}
+.subnav .subnavMenu li a:hover{
+    color: #f54343  ;
+}
+.ad{
+    width: 100%;
+}
+.ad .subad{
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.ad .subad img{
+    width: 1000px;
+    height: 90px;
+    overflow: hidden;
+}
+.ad .adMenu{
+    width: 980px;
+    height: 44px;
+    margin: 0 auto;
+    background: rgb(241, 241, 241);
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.ad .adMenu iframe{
+    frameborder: 0;
+    width: 1050px;
+    height: 41px;
+    scrolling: none;
+    background-color: transparent;
+    overflow: hidden;
+}
+.banner{
+    width: 1000px;
+    height: 58px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.banner .list{
+    width: 1000px;
+    height: 58px;
+}
+.banner .list li.item{
+    float: left;
+    width: 250px;
+    height: 58px;
+    position: relative;
+    top: 0px;
+    left: 0;
+    background-image: url("../image/icons.png");
+    background-position: 0 -425px;
+}
+.banner .list li.item .pic{
+    float: left;
+    width: 50px;
+    margin-right: 10px;
+    position: relative;
+}
+.banner .list li.item .pic div{
+    width: 50px;
+    height: 58px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-image: url("../image/icons.png");
+    background-repeat: no-repeat;
+    background-position: 0 -500px;
+}
+.banner .list li.item .pic img{
+    width: 50px;
+    height: 58px;
+}
+.banner .list li.item .txt{
+    float: left;
+    width: 180px;
+}
+.banner .list li.item .txt .title{
+    width: 180px;
+    height: 14px;
+}
+.banner .list li.item .txt .title a{
+    display: block;
+    color: #2b2b2b;
+    line-height: 14px;
+    font-size: 12px;
+}
+.banner .list li.item .txt .title a:hover{
+    color: #f54343;
+}
+.banner .list li.item .txt .content{
+    width: 180px;
+    height: 26px;
+}
+.banner .list li.item .txt .content a{
+    color: #004276;
+    display: block;
+    line-height: 26px;
+    overflow: hidden;
+    font-size: 12px;
+}
+.banner .list li.item .txt .content a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+/*main部分开始--------------------------------------------------*/
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+.main .left{
+    float: left;
+    width: 220px;
+    font-size: 12px;
+}
+.main .left a{
+    font-size: 12px;
+}
+.main .right{
+    float: right;
+    width: 756px;
+}
+.main .left .news{
+    width: 220px;
+    padding-top: 8px;
+}
+.main .left .news .side{
+    width: 188px;
+    border: 1px solid #dedede;
+    padding: 1px 15px 2px;
+}
+.main .left .news .side .title{
+    height: 25px;
+    padding-top: 14px;
+}
+.main .left .news .side .title a{
+    font-size: 14px;
+}
+.main .left .news .side .part1 .list{
+    width: 188px;
+    margin-top: 4px;
+}
+.main .left .news .side .part1 .list dt{
+    height: 24px;
+    line-height: 24px;
+}
+.main .left .news .side .part1 .list dt a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+.main .left .news .side .part1 .list dd{
+    padding: 4px 0 6px 0;
+    height: 38px;
+    line-height: 19px;
+    color: #838383;
+}
+.main .left .news .side>div{
+    padding-bottom: 13px;
+    border-top: 1px solid #dedede;
+}
+.main .left .news .side .part1{
+    padding-bottom: 13px;
+    border-top: none;
+}
+.main .lcl{
+    font-size: 13px !important;
+    color: #004276 !important;
+    float: right;
+    line-height: 20px !important;
+}
+.main .left .news .side .part2 .picnewsMenu{
+    width: 188px;
+}
+.main .left .news .side .part2 .picnewsMenu li{
+    width: 188px;
+    height: 45px;
+    padding: 8px 0 11px;
+    float: left;
+    background: url("../image/dotline.cc375666.gif") repeat-x bottom left;
+
+}
+.main .left .news .side .part2 .picnewsMenu li>a{
+    float: left;
+    width: 75px;
+    height: 42px;
+    overflow: hidden;
+    margin-top: 3px;
+    display: block
+}
+.main .left .news .side .part2 .picnewsMenu li div{
+    float: left;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    width: 103px;
+    padding-left: 10px;
+}
+.main .left .news .side .part2 .myself{
+    width: 188px;
+    margin-top: 4px;
+}
+.main .left .news .side .part2 .myself dt{
+    width: 170px;
+    height: 24px;
+    padding-left: 18px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.main .left .news .side .part2 .myself .myselfList{
+    background: url("../image/icons.png") no-repeat 0 -595px;
+    padding-left: 18px;
+}
+.main .left .news .side .part3 div{
+    width: 188px;
+}
+.main .left .news .side .part3 div .title{
+    line-height: 24px;
+    padding-top: 14px;
+}
+.main .left .news .side .part3 div .title a{
+    font-size: 14px;
+    color: #2b2b2b;
+    text-decoration: none;
+}
+.main .left .news .side .part3 div .title a img{
+    float: right;
+}
+.main .left .news .side .part3 div .content li{
+    line-height: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.main .left .news .side .part4 div{
+    width: 188px;
+}
+.main .left .news .side .part4 .list{
+    margin-top: 4px;
+}
+.main .left .news .side .part4 .list a{
+    line-height: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.main .left .picnews{
+    margin-top: 28px;
+}
+.main .right{
+    width: 756px;
+    position: relative;
+}
+.main .right .leftNews{
+    width: 390px;
+    float: left;
+}
+.main .right .leftNews .newsTop{
+    width: 390px;
+    padding-top: 18px;
+}
+.main .right .leftNews .newsTop .tab .title a{
+    font-size: 12px;
+}
+.main .right .leftNews .newsTop .tab .title{
+    position: relative;
+    padding-left: 19px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    line-height: 24px;
+}
+.main .right .leftNews .newsTop .tab .title .tabhead{
+    float: left;
+}
+.main .right .leftNews .newsTop .tab .content .list1{
+    margin-top: 4px;
+}
+.main .right .leftNews .newsTop .tab .content .list1 li{
+    float: left;
+    width: 371px ;
+}
+.main .right .leftNews .newsTop .tab .content .list1  h1 {
+    padding-left: 15px;
+    line-height: 28px;
+    font-size: 20px;
+    font-family: SimHei;
+    color: #004276;
+}
+.main .right .leftNews .newsTop .tab .content .list1 h1 a{
+    float: left;
+    font-size: 20px;
+    background-image: none;
+}
+.main .right .leftNews .newsTop .tab .content .list1 h1 a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+.main .right .leftNews .newsTop .tab .content .list1 .news_list{
+    line-height: 28px;
+    font-size: 14px;
+    color: #004276;
+}
+.news_list li{
+    padding-left: 19px;
+    background-image: url("../image/icons.png");
+    background-repeat: no-repeat;
+    background-position: 6px -687px;
+    height: 28px;
+    width: 390px;
+    overflow: hidden;
+}
+.news_list li a{
+    line-height: 28px;
+    font-size: 14px;
+    color: #004276;
+}
+li a:hover{
+    color: #f54343;
+     text-decoration: underline;
+}
+.news_list li.bold{
+    font-weight: bold !important;
+}
+.main .newsBottom .title{
+    padding-left: 19px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.main .newsBottom{
+    width: 366px;
+    padding-top: 18px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    padding-left: 6px;
+    border-top: 1px solid #dedede;
+    background-color: transparent;
+}
+.main .newsBottom .content{
+    position: relative;
+    top: -31px;
+}
+.main .arrowl{
+    cursor: pointer;
+    position: relative;
+    left: 80px !important;
+    top: -20px;
+    width: 14px;
+    height: 14px;
+    margin-top: 4px;
+    background-image: url("../image/icons.png") !important;
+    background-position: -100px -800px;
+    background-repeat: no-repeat;
+}
+.main .arrow2{
+    cursor: pointer;
+    position: relative;
+    left: 135px !important;
+    top: -40px;
+    width: 14px;
+    height: 14px;
+    margin-top: 4px;
+    background-image: url("../image/icons.png")   !important;
+    background-position: 0px -800px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.main .dotline{
+    top: -28px;
+    left: 89px;
+    position: relative;
+    right: 5px;
+    bottom: 40px;
+    height: 3px;
+    line-height: 3px;
+    text-align: right;
+    font-size: 0;
+}
+.main .index{
+    cursor: pointer;
+    width: 6px !important;
+    height: 6px !important;
+    background-image: url("../image/icons.png") !important;;
+    background-repeat: repeat-x;
+    background-position: -400px -800px ;
+    margin-left: 7px !important;
+    float: left !important;
+    top: -2px;
+    position: relative;
+}
+.main .rightNews{
+    float: right;
+    width: 360px;
+    margin-top: 24px;
+}
+.main .rightNews .pics{
+    float: right;
+    width: 360px;
+    overflow: hidden;
+}
+.main .rightNews .pics ul{
+    width: 370px;
+    border-right: none;
+}
+.main .rightNews .pics ul li{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    width: 39px;
+    overflow: hidden;
+    border: 1px solid #dedede;
+    border-right: none;
+    margin-right: 0;
+}
+.main .rightNews .pics ul li a{
+    display: block;
+    font-size: 12px;
+    border-right: 1px solid #dedede;
+}
+.main .rightNews .pics ul li a:hover{
+    color: #333;;
+    text-decoration: none;
+}
+.main .rightNews .pics ul li:hover{
+    background-color: #f54343;
+}
+.main .rightNews .pics ul>li+li{
+    border-left: none;
+}
+.main .rightNews .pics div a{
+    display: block;
+    width: 360px;
+}
+.main .rightNews .pics div img{
+    width: 352px;
+    height: 223px;
+}
+.main .rightNews .video{
+    width: 360px;
+}
+.main .video .title{
+    float: right;
+    width: 360px;
+    padding-top: 14px;
+    border-bottom: 1px solid #dedede;
+}
+.main .video .title .tv{
+    float: left;
+    width: 34px;
+    line-height: 35px;
+}
+.main .video .title .pic3{
+    float: right;
+    width: 208px;
+    margin-top: 5px;
+    margin-right: 6px;
+}
+.main .video .true {
+    float: right;
+    width: 360px;
+}
+.main .video .true h2{
+    width: 360px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 0;
+    padding-top: 8px;
+}
+.main .video .true h2 a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #004276;
+}
+.videoList{
+    width: 360px;
+    margin-bottom: 4px;
+}
+.videoList .pic4{
+    float: left;
+    width: 120px;
+    margin-top: 7px;
+    margin-right: 14px;
+    overflow: hidden;
+}
+.videoList .pic4 a{
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+.videoList .pic4 img{
+    position: relative;
+    width: 120px;
+    height: 92px;
+}
+.videoList .pic4 div.one{
+    width: 120px;
+    height: 20px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    line-height: 20px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    text-align: center;
+    bottom: 2px;
+    transition: all 1s;
+}
+.videoList .pic4 div.two{
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    line-height: 20px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    text-align: center;
+    bottom: 2px;
+    transition: all 1s;
+}
+.main img.wulei{
+    width: 120px;
+    height: 92px;
+}
+.videoList .pic4 div{
+    font-size: 12px;
+}
+.videoList .pic4 div:hover{
+    text-decoration: underline white;
+}
+.videoList .list_txt{
+    float: right;
+    width: 226px;
+}
+.videoList .list_txt li{
+    height: 26px;
+}
+.main .video .word{
+    width: 360px;
+    padding-top: 5px;
+}
+.subBanner1{
+    float: left;
+    width: 750px;
+    /*height: 73px;*/
+    margin-left: 6px;
+    margin-top: 12px;
+}
+.subBanner1 .Ad.left{
+    float: left;
+    width: 318px;
+    height: 65px;
+    border: 1px solid #e6e6e6;
+    padding: 5px 20px 1px;
+    overflow: hidden;
+    position: relative;
+}
+.subBanner1 .Ad.right{
+    float: right;
+    width: 318px;
+    height: 65px;
+    border: 1px solid #e6e6e6;
+    padding: 5px 20px 1px;
+    overflow: hidden;
+    position: relative;
+}
+.subBanner1 .Ad>a{
+     text-decoration: none;
+     width: 28px;
+     height: 15px;
+     overflow: hidden;
+     position: absolute;
+     left: 2px;
+     bottom: 0;
+     z-index: 1;
+     color: #004276;
+ }
+.subBanner1 .Ad div{
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+}
+.subBanner1 .Ad div a{
+    color: #004276;
+    font-size: 14px;
+}
+.subBanner1 .Ad div a:hover{
+    text-decoration: underline;
+}
+.subBanner2{
+    float: left;
+    padding-left: 6px;
+    margin-top: 21px;
+}
+.subBanner2 div{
+    position: relative;
+    height: 90px;
+}
+.subBanner2 a img{
+    width: 35px;
+    height: 15px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+
+}
+/*main部分结束*/
+/*main1部分开始*/
+.main1{
+    width: 1000px;
+    margin: 0 auto;
+}
+.main1 .sider{
+    float: left;
+    width: 220px;
+    padding-right: 30px;
+}
+.sider .subtitle1{
+    border-bottom: 2px solid #999;
+    line-height: 28px;
+    padding-top: 25px;
+}
+.main1 .sider .stock{
+    margin-top: 16px;
+    width: 220px;
+    float: left;
+}
+.main1 .sider .stock .img{
+    float: left;
+}
+.main1 .sider .stock .info{
+    float: right;
+}
+.main1 .sider .stock .info a{
+    color: #000;
+}
+.main1 .sider .stock .info a p{
+    color: #017f01;
+}
+.main1 .sider .stock .info  p.num1{
+    font-family: Arial;
+    font-size: 20px;
+    padding: 11px 0 7px;
+}
+.main1 .sider .stock .info  p.num2{
+    font-size: 12px;
+}
+.main1 .sider .searchServe{
+    float: left;
+    margin-top: 12px;
+    width: 220px;
+    height: 21px;
+}
+.main1 .sider .searchServe form{
+    width: 220px;
+}
+.main1 .sider .searchServe form .bor{
+    float: left;
+    color: #a0a0a0;
+    border: 1px solid #e6e6e6;
+    width: 96px;
+    height: 19px;
+    text-indent: 5px;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 0;
+    font-family: Arial;
+}
+.main1 .sider .searchServe form .btn{
+    float: left;
+    width: 56px;
+    height: 21px;
+    border: 1px solid #e6e6e6;
+    border-left: none;
+    background: #f6f6f6;
+    text-indent: 5px;
+    line-height: 19px;
+    text-align: center;
+    color: #004276;
+    font-size: 13px;
+    font-family: Arial;
+}
+.main1 .sider .searchServe form a{
+    width: 58px;
+    height: 19px;
+    border: 1px solid #e6e6e6;
+    background: #f6f6f6;
+    display: block;
+    float: left;
+    line-height: 19px;
+    text-align: center;
+    color: #004276;
+    margin-left: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main1 .sider .text{
+    float: left;
+    width: 220px;
+    padding: 10px 0 22px;
+}
+.main1 .sider .text ul{
+    margin-top: 4px
+}
+.main1 .sider .text ul li{
+    line-height: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.main1 .sider .text ul li a{
+    font-size: 12px;
+}
+.main1 .sider .text ul li a:hover{
+    text-decoration: underline;
+}
+.main1 .sider .pic5{
+    float: left;
+    width: 220px;
+    position: relative;
+}
+.main1 .sider .pic5 .bg{
+    background: #225bb4;
+    opacity: 0.6;
+    width: 55px;
+    height: 22px;
+    position: absolute;
+    top: 120px;
+    left: 0;
+}
+.main1 .sider .pic5 .text{
+    width: 55px;
+    height: 22px;
+    padding: 0;
+    line-height: 22px;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    text-indent: 10px;
+}
+.main1 .sider .pic5 .text a{
+    color: white;
+}
+.main1 .sider .pic5 .bglong{
+    background: #333;
+    opacity: 0.6;
+    width: 187px;
+    height: 22px;
+    position: absolute;
+    top: 143px;
+    left: 0;
+}
+.main1 .sider .pic5 .piclist{
+    width: 187px;
+    height: 22px;
+    line-height: 22px;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    text-indent: 10px;
+}
+.main1 .sider .pic5 .piclist a{
+    color: #fff;
+    font-size: 12px;
+}
+.main1 .content{
+    width: 750px;
+    float: right;
+}
+.main1 .content .textNews{
+    width: 750px;
+}
+.content .textNews .finance{
+    float: left;
+    width: 390px;
+}
+.content .textNews  .title{
+    position: relative;
+    background-image: url("../image/icons.png");
+    background-repeat: no-repeat;
+    background-position: 0 -1046px;
+    line-height: 38px;
+    padding-top: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2b2b2b;
+    overflow: hidden;
+}
+.content .textNews  .title a{
+    font-size: 16px;
+}
+.content .textNews h2{
+    line-height: 40px;
+    height: 40px;
+    padding-top: 8px;
+    font-weight: normal;
+    font-size: 12px;
+    overflow: hidden;
+}
+.content .textNews h2 a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #004276;
+}
+.content .textNews h2 a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+.main1 .content .textNews .pe{
+    width: 360px;
+    float: right;
+}
+.main1 .content .pe .videoList img{
+    height: 118px;
+}
+.main1 .content .pe .news_list{
+    margin-top: 9px;
+}
+.main1 .content .pe .videoList .list_txt a{
+    font-size: 14px;
+    color: #004276;
+}
+.main1 .content .pe .videoList .list_txt a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+.main1 .content .subBanner2{
+    width: 750px;
+    margin-top: 24px;
+}
+.main2{
+    width: 1000px;
+    margin: 0 auto;
+}
+.main2 .sider{
+    float: left;
+    width: 220px;
+    padding-right: 30px;
+}
+.main2 .sider .money{
+    width: 220px;
+    overflow: hidden;
+    padding: 14px 0 8px;
+}
+.main2 .sider .money ul{
+    width: 240px;
+}
+
+.main2 .sider .money li{
+    float: left;
+    width: 57px;
+    line-height: 24px;
+    height: 24px;
+}
+.main2 .sider .money li a{
+    font-size: 12px;
+    color: #2b2b2b;
+}
+.main2 .sider .money li a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+.main2 .sider .car{
+    width: 220px;
+    overflow: hidden;
+}
+.main2 .sider .car ul{
+    width: 240px;
+}
+.main2 .sider .car li{
+    float: left;
+    width: 56px;
+    padding-bottom: 4px;
+    font-size: 12px;
+}
+.main2 .sider .car li a{
+    width: 49px;
+    height: 29px;
+    border: 1px solid #dfdfdf;
+    display: block;
+}
+.main2 .sider .car li a:hover{
+    border: 1px solid #e90500;
+}
+.main2 .sider .car li p{
+    text-align: center;
+}
+.main2 .sider .auto{
+    width: 220px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+.main2 .sider .auto .leftBtn{
+    float: left;
+    background-image: url("../image/icons.png") ;
+    background-repeat: no-repeat;
+    background-position: 0 -1200px;
+    width: 79px;
+    height: 21px;
+    padding-left: 28px;
+}
+.main2 .sider .auto .leftBtn a{
+    font-size: 12px;
+}
+.main2 .sider .auto .rightBtn{
+    float: right;
+    background-image: url("../image/icons.png") ;
+    background-repeat: no-repeat;
+    background-position: -200px -1200px;
+    width: 79px;
+    height: 21px;
+    padding-left: 28px;
+}
+.main2 .sider .auto .rightBtn a{
+    font-size: 12px;
+}
+.main2 .sider .searchBor{
+    width: 218px;
+    height: 20px;
+    padding: 0 0 15px 2px;
+    margin-right: 0;
+    background-image: url("../image/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -400px -1900px;
+}
+.main2 .sider .searchBor span{
+    float: left;
+}
+.main2 .sider .searchBor span .txt{
+    width: 192px;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 0 0 4px;
+    margin-top: 2px;
+    background: #fff;
+    border: none;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+}
+.main2 .sider .searchBor span .btn{
+    width: 22px;
+    height: 20px;
+    border: none;
+    background: none;
+}
+.main2 .sider .ad2{
+    width: 220px;
+    height: 350px;
+}
+.main2 .sider .ad2 .gg img{
+    position: relative;
+    top: -18px;
+}
+.main2 .content{
+    width: 750px;
+    float: right;
+}
+.main2 .content .title a:hover{
+    color: #f54343;
+    text-decoration: none;
+}
+.main2 .content .news_list a{
+    color: #004276;
+}
+.main2 .content .news_list a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+.main2 .pe{
+    float: right;
+    width: 360px;
+}
+.main2 .pe ul.news_list{
+    float: right;
+    width: 360px;
+}
+.main2 .pe ul.news_list li{
+    width: 360px;
+    margin: 0;
+}
+.main2 .content .pe .picList2{
+    float: right;
+    width: 360px;
+    height: 133px;
+}
+.main2 .pe .picList2 .img1{
+    float: left;
+    position: relative;
+    width: 170px;
+    height: 118px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.main2 .pe .picList2 .img1 img{
+    float: left;
+    position: relative;
+}
+.main2 .pe .picList2 .img2 img{
+    float: right;
+    position: relative;
+}
+.main2 .pe .picList2 .img2{
+    float: right;
+    position: relative;
+    width: 170px;
+    height: 118px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.main2 .pe .picList2 div.one{
+    width: 170px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    line-height: 20px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    text-align: center;
+    bottom: 0px;
+    top: 98px;
+    transition: all 1s;
+}
+.main2 .subBanner1 a:hover{
+    color: #004276;
+    text-decoration: underline;
+}
+.main2 .subBanner2{
+    width: 750px;
+}
+.main2 .subBanner2 iframe{
+    width: 750px;
+}
+.main2.first{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.main2.first .sider{
+    float: left;
+    margin-left: 0;
+}
+.main2.first .sider .shop{
+    line-height: 20px ;
+    margin-top: 10px ;
+    height: 30px;
+}
+.main2.first .sider dl{
+    width: 220px;
+    padding-bottom: 13px;
+}
+.main2.first .sider dd{
+    color: #838383;
+    line-height: 20px;
+    padding: 4px 0 6px;
+    overflow: hidden;
+    display: block;
+}
+.main2.first .sider dd div{
+    float: left;
+    width: 75px;
+    margin-top: 4px;
+    margin-right: 10px;
+    overflow: hidden
+}
+.main2.first .sider dd span{
+    color: #838383;
+    line-height: 10px;
+    font-size: 12px;
+}
+.main2.first .sider dt.list{
+    line-height: 24px;
+    overflow: hidden
+}
+.main2.first .sider dt.list a{
+    font-size: 12px;
+    color: #004276;
+}
+.main2.first .sider dt.list a:hover{
+     color: #f54343;
+    text-decoration: underline;
+}
+.main2.first .sider .tabs{
+    width: 220px;
+    border-bottom: 1px solid #dedede;
+}
+.main2.first .sider .tabs .videotitle div{
+    width: 110px;
+    height: 27px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+.main2.first .sider .tabs .videotitle .dy{
+    background-image: url("../image/icons.png");
+    background-repeat: no-repeat;
+    line-height: 27px;
+    background-position: 0 -1500px;
+}
+.main2.first .sider .tabs .videotitle .ds{
+    background-image: url("../image/icons.png");
+    background-repeat: no-repeat;
+    line-height: 27px;
+    background-position: -310px -1500px;
+}
+.main2.first .sider .tabs .videolist{
+    width: 220px;
+    height: 82px;
+}
+.main2.first .sider .tabs .videolist>div{
+    padding-top: 10px;
+}
+.main2.first .sider .tabs .videolist .pic6{
+    float: left;
+    margin: 6px 10px 0 0;
+    width: 75px;
+    overflow: hidden;
+}
+.main2.first .sider .tabs .videolist .news1 li{
+    height: 24px;
+    overflow: hidden;
+}
+.main2.first .sider .tabs .videolist .news1 li a{
+    font-size: 12px;
+    color: #004276;
+}
+.main2.first .sider .tabs .videolist .news1 li a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+.main2.first .pe div.videoList{
+    float: left;
+    height: 126px;
+}
+.main2.first .pe div.videoList .list_txt a{
+    color: #004276;
+}
+.main2.first .pe div.videoList .list_txt a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+.main2.first .pe .special{
+    padding-bottom: 10px;
+}
+.main1.first .content a{
+    color: #004276;
+}
+.main1.first .content a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+.main1.first{
+    position: relative;
+}
+.main1.first .sider{
+    float: left;
+    margin-top: 30px;
+    margin-left: 0;
+    width: 220px;
+    padding-right: 30px;
+}
+.main1.first .finance div.videoList .pic4 a img{
+    width: 120px;
+    height: 118px;
+}
+.main2.second .sider .list{
+    padding-bottom: 13px;
+}
+.main2.second .sider .list li{
+    height: 24px;
+}
+.main2.second .sider .list .first{
+    margin-top: 10px;
+    height: 30px;
+}
+.main2.second .sider .list .first a{
+    font-size: 14px;
+}
+.main2.second .sider .list a{
+    font-size: 12px;
+    color: #004276;
+}
+.main2.second .sider .list a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+.main2.second .content .finance .videoList .pic4 img{
+    height: 120px;
+}
+.main2.second .pe .videoList .pic4 img{
+    height: 120px;
+}
+.list_txt a{
+    color: #004276;
+}
+.list_txt a:hover{
+    color: #f54343;
+    text-decoration: underline;
+}
+.bottom{
+    margin-left: 174.5px;
+    width: 1000px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.footer{
+    width: 1000px;
+    margin: 18px auto 0;
+}
+.footer .city{
+    color: #666;
+    border-bottom: 2px solid #f54343;
+    line-height: 32px;
+
+}
+.footer .city div.lm{
+    float: left;
+}
+.footer .city div.lm a{
+    font-size: 12px;
+    color: #666;
+}
+.footer .city p{
+    display: block;
+    float: right;
+    width: 836px;
+    height: 34px;
+}
+.footer .city p a{
+    color: #666;
+    width: 24px !important;
+    font-size: 12px;
+}
+.footer .city p span{
+    padding: 0 5px;
+    height: 12px;
+    font-size: 12px;
+}
+.footer .media p span{
+    padding: 0 9px;
+    color: #666;
+    font-size: 12px;
+}
+.footer .media{
+    line-height: 32px;
+}
+.footer .media div{
+    float: left;
+}
+.footer .media a{
+    font-size: 12px;
+    color: #666;
+}
+.footer .media p{
+    float: right;
+}
+.footer .copr{
+    color: #999;
+    line-height: 26px;
+    margin-top: 10px;
+    text-align: center;
+}
+.footer .copr span{
+    font-size: 12px;
+    padding: 0 8px;
+}
+.footer .copr span a{
+    color: #999;
+    font-size: 12px;
+    padding-right: 8px;
+}
+.footer .copr span a.logo{
+    background-image: url("../image/ghs.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 10px 0 10px 25px;
+}
+.footer .org{
+    margin-top: 22px;
+}
+.footer .org a.last1{
+    background-image: url("../image/last1.png");
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+    background-size: 35px;
+    width: 65px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    color: #000;
+    line-height: 16px;
+    padding: 10px 0 0 45px;
+    border: 1px solid #d2d2d2;
+    font-size: 12px;
+    margin-right: 36px;
+}
+.footer .org a.last2{
+    background: #fff;
+    padding: 10px 0 0 10px;
+    width: 82px;
+    color: #000;
+    height: 40px;
+    line-height: 16px;
+    border: 1px solid #d2d2d2;
+    float: left;
+    text-align: left;
+    display: block;
+    font-size: 12px;
+    margin-right: 36px;
+}
+.footer .org a.last3{
+    background-image: url("../image/icons.png");
+    background-repeat: no-repeat;
+    background-position: -203px -1300px;
+    padding: 10px 0 0 52px;
+    width: 65px;
+    height: 40px;
+    border: 1px solid #d2d2d2;
+    float: left;
+    font-size: 12px;
+    text-align: left;
+    margin-right: 36px;
+}
+.footer .org a.last4{
+      background-image: url("../image/icons.png");
+      background-repeat: no-repeat;
+      background-position: -410px -1300px;
+      padding: 10px 0 0 50px;
+      width: 54px;
+      height: 40px;
+      border: 1px solid #d2d2d2;
+      float: left;
+      font-size: 12px;
+      text-align: left;
+      margin-right: 36px;
+}
+.footer .org a.last5{
+    background-image: url("../image/icons.png");
+    background-repeat: no-repeat;
+    background-position: -607px -1300px;
+    padding: 10px 0 0 45px;
+    width: 65px;
+    height: 40px;
+    border: 1px solid #d2d2d2;
+    float: left;
+    font-size: 12px;
+    text-align: left;
+    margin-right: 36px;
+}
+.footer .org a.last6{
+    background-image: url("../image/icons.png");
+    background-repeat: no-repeat;
+    background-position: -806px -1294px;
+    padding: 1px 0 0 48px;
+    width: 65px;
+    height: 49px;
+    line-height: 16px;
+    border: 1px solid #d2d2d2;
+    float: left;
+    font-size: 12px;
+    text-align: left;
+    margin-right: 36px;
+}
+.footer .org a.last7{
+    background-image: url("../image/logo_wlwhjydw.gif");
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+    padding: 10px 0 0 55px;
+    width: 65px;
+    height: 40px;
+    border: 1px solid #d2d2d2;
+    float: left;
+    font-size: 12px;
+    text-align: left;
+}
+/*main1部分结束*/

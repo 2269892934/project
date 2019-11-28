@@ -1,0 +1,75 @@
+.wrapper{
+    width: 100vw;
+    margin: auto;
+}
+.title{
+    width: 100vw;
+    text-align: center;
+    font-size: 19px;
+    color: #dd2727;
+    font-weight: 700;
+    line-height: 44px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+#menu ul{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+#menu ul li{
+    width: 14vw;
+    text-align: center;
+    line-height: 48px;
+    font-size: 15px;
+    color: #999;
+    font-weight: 600;
+}
+#menu ul li.selected{
+    color:#2766cf;
+}
+#list{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+#list>div{
+    flex-direction: column;
+    display: none;
+}
+#list>div.selected{
+    display: block;
+}
+#list div div>a{
+    width: 100vw;
+    height: 32.8vw;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dotted #9c9c9c;
+    box-sizing: border-box;
+}
+#list div div>a div{
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+}
+#list div div>a div.logo img{
+    height: 60%;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+#list div div>a div.logo p{
+    width: 65%;
+    margin: 2px auto auto auto;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+#list div div>a div.last{
+    margin-left: 0.5vw;
+}
+#list div div>a div.ad img{
+    height: 96%;
+}

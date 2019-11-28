@@ -1,0 +1,669 @@
+.wrapper{
+    width: 100vw;
+    margin: 0 auto;
+}
+header{
+    width: 100vw;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color: rgb(255, 0, 54);
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+}
+header a.subnav img{
+    width: 80vw;
+    height: 30px;
+    padding-left: 2.6vw;
+    display: flex;
+ }
+header a.searchIcon{
+    display: flex;
+    flex-direction: row;
+    width: 76vw;
+    position: absolute;
+    left: 11vw;
+    top: 10px;
+    color: rgba(0, 0, 0, 0.3);
+}
+header a.searchIcon div{
+    width: 76vw;
+    height: 36px;
+    background-color: white;
+    line-height: 36px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+}
+header a.searchIcon div span{
+    color: rgba(0, 0, 0, 0.3);
+}
+header a.searchIcon img{
+    width: 4vw;
+    height: 16px;
+    padding: 11px 5px 0 5px;
+}
+header .last{
+    color: #fff;
+    position: absolute;
+    right: 3.4667vw;
+    top: 19px;
+    font-size: 14px;
+}
+header .last span{
+    color:#fff;
+}
+button{
+    width: 12vw;
+    height: 45px;
+    background-color: transparent;
+    position: fixed;
+    right: 1.33vw;
+    bottom: 80px;
+    border: 0;
+    z-index: 10000;
+}
+button img{
+    display: flex;
+    width: 12vw;
+    height: 12vw;
+    position: fixed;
+    right: 1.33vw;
+    bottom: 80px;
+}
+nav{
+    width: 100vw;
+    /*height: 78px;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    place-content: flex-start center;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 9998;
+}
+nav a{
+    width: 19vw;
+    /*height: 78px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+}
+nav img{
+    width: 12.8vw;
+    height: 12.8vw;
+    margin: 5px 11px 2px;
+}
+nav span{
+    padding-top: 5px;
+    text-align: center;
+    padding-right: 0.8vw;
+}
+#scroll{
+    width: 100vw;
+    /*height: 135.644px;*/
+    margin-top: 10px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    z-index: 9996;
+}
+#scroll ul{
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+}
+#scroll ul li{
+    width: 94vw;
+    display: flex;
+    margin: 0 3.2vw 0 3.2vw;
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+}
+#scroll ul li img{
+    width: 94vw;
+    height: 35vw;
+}
+main{
+    position: relative;
+    z-index: 9990;
+}
+main .ad{
+    width: 100vw;
+    /*height: 180px;*/
+}
+main .ad img{
+    width: 100vw;
+    height: 48vw;
+}
+main .subad{
+    width: 100vw;
+    height: 263px;
+    display: flex;
+    margin-top: 10px;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    background-color: white;
+}
+main .subad>div{
+    width: 46.5vw;
+    height: 128.5px;
+    display: flex;
+    position: relative;
+    margin-left: 1.5vw;
+}
+
+main .subad div img{
+    width: 46.5vw;
+    height: 128.5px;
+}
+main .subad>div>a{
+    position: absolute;
+    left: 5vw;
+    top:15px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+}
+main .subad>div>div{
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 2vw;
+    top: 41px;
+}
+main .subad>div>div a{
+    width: 21vw;
+    height: 77.5px;
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+}
+main .subad>div>div img{
+    width: 21vw;
+    height: 77.5px;
+    background-color: rgb(255,255,255);
+}
+main .subad>div>div a div{
+    width: 21vw;
+    height: 12px;
+    text-align: center;
+    line-height: 12px;
+    color: rgb(255,0,54);
+    position: relative;
+    top: -13px;
+    left: 0;
+}
+main .subad>div>div a div span{
+    border: 0.5px solid rgb(255,0,54);
+    background-color: white;
+
+}
+main .main1{
+    width: 100vw;
+    height: 30px;
+}
+main .main1 div{
+    width: 80vw;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 3.2vw;
+}
+main .main2{
+    width: 94vw;
+    height: 277px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: flex-start;
+    margin: 0 2.7vw 0 2.7vw;
+}
+main .main2 .left{
+    width: 46vw;
+    height: 267px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    align-items: center;
+    margin: 5px 1.33vw 5px 0;
+    box-sizing: border-box;
+}
+main .main2 .left>div{
+    display: flex;
+    flex-direction: column;
+    width: 46vw;
+    height: 270px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(237,237,237);
+}
+main .main2 .left .pic{
+    width: 38.5vw;
+    height: 138px;
+    padding: 15px 4vw;
+    border: 0;
+    background-color: rgba(0,0,0,0.03);
+    margin-right: 0;
+}
+main .main2 .left .pic img{
+    width: 37.5vw;
+    height: 138px;
+}
+main .main2 .left .pinpai{
+    display: flex;
+    border: 0;
+    position: relative;
+    top: -10px;
+    left: 3vw;
+}
+main .main2 .left .pinpai span{
+    display: inline-block;
+    padding: 0 1.33vw;
+    line-height: 18px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(206,175,163);
+}
+main .main2 .left .intro{
+    height: 52px;
+    display: flex;
+    border: 0;
+    flex-direction: column;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding:  4px 2.7vw 0;
+
+}
+main .main2 .left .intro span{
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+main .main2 .left .money{
+    display: flex;
+    flex-direction: row;
+    border: 0;
+}
+main .main2 .left .money .price{
+    width: 45.33vw;
+    height: 30px;
+    border: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+main .main2 .left .money .price span{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255,0,0);
+    margin-left: 2.7vw;
+    line-height: 21px;
+}
+main .main2 .left .money a.same{
+    width: 15.6vw;
+    height: 23px;
+    padding: 0 2.4vw;
+    background-color: rgb(255,230,235);
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    flex-direction: row;
+    border-radius: 3.2vw;
+    line-height: 23px;
+    margin-right: 2vw;
+    /*position: relative;*/
+    /*left: 14vw;*/
+    /*top: -34px;*/
+}
+main .main2 .left .money a.same span{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(255,0,54);
+}
+/*-----------*/
+main .main2 .right img{
+    width: 45.33vw;
+    height: 270px;
+    display: flex;
+    margin: 5px 0 0 1.33vw;
+}
+main .main2 .right1{
+    width: 46vw;
+    height: 267px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 5px 1vw;
+    box-sizing: border-box;
+}
+main .main2 .right1 div{
+    border: 1px solid rgb(237,237,237);
+}
+main .main2 .right1 .pic{
+    width: 37.5vw;
+    height: 138px;
+    padding: 15px 4vw;
+    border: 0;
+    background-color: rgba(0,0,0,0.03);
+    margin-right: 0;
+}
+main .main2 .right1 .pic img{
+    width: 36.8vw;
+    height: 138px;
+
+}
+main .main2 .right1 .pinpai{
+    display: flex;
+    border: 0;
+    position: relative;
+    top: -8px;
+    left: 3vw;
+}
+main .main2 .right1 .pinpai span{
+    display: inline-block;
+    padding: 0 1.33vw;
+    line-height: 18px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(206,175,163);
+}
+main .main2 .right1 .intro{
+    height: 52px;
+    display: flex;
+    border: 0;
+    flex-direction: column;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding:  10px 2.7vw 0;
+    position: relative;
+    top: -6px;
+}
+main .main2 .right1 .intro span{
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+main .main2 .right1 .money{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0;
+}
+main .main2 .right1 .money .price{
+    width: 45.33vw;
+    height: 30px;
+    border: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+main .main2 .right1 .money .price span{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255,0,0);
+    margin-left: 2.7vw;
+    line-height: 28px;
+}
+main .main2 .right1 .money a.same{
+    width: 16.6vw;
+    height: 23px;
+    padding: 0 2.4vw;
+    background-color: rgb(255,230,235);
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    align-items: center;
+    border-radius: 3.2vw;
+    line-height: 23px;
+    margin-right: 2vw;
+    /*position: relative;*/
+    /*left: 29vw;*/
+    /*top: -28px;*/
+}
+main .main2 .right1 .money a.same span{
+    display: block;
+    flex-direction: column;
+    font-size: 12px;
+    color: rgb(255,0,54);
+}
+main .main3{
+    width: 94vw;
+    height: 283px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2.7vw 0 2.7vw;
+}
+main .main3 .left2{
+    width: 46vw;
+    height: 277px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    margin: 5px 1.33vw 5px 0;
+    box-sizing: border-box;
+}
+main .main3 .left2 div{
+    border: 1px solid rgb(237,237,237);
+}
+main .main3 .left2 .pic{
+    width: 37.5vw;
+    height: 138px;
+    padding: 15px 4vw;
+    border: 0;
+    background-color: rgba(0,0,0,0.03);
+    margin-right: 0;
+}
+main .main3 .left2 .pic img{
+    width: 36.8vw;
+    height: 138px;
+}
+main .main3 .left2 .pinpai{
+    display: flex;
+    border: 0;
+    flex-wrap: nowrap;
+    position: relative;
+    top: -9px;
+    left: 3vw;
+}
+main .main3 .left2 .pinpai span{
+    display: inline-block;
+    padding: 0 1.33vw;
+    line-height: 18px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(206,175,163);
+
+}
+main .main3 .left2 .intro{
+    height: 52px;
+    display: flex;
+    border: 0;
+    flex-direction: column;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding:  10px 2.7vw 0;
+    position: relative;
+    top: -6px;
+}
+main .main3 .left2 .intro span{
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+main .main3 .left2 .enjoy{
+    width: 20vw;
+    height: 14px;
+    border: 0;
+    margin-left: 3vw;
+    margin-top: -8px;
+}
+main .main3 .left2 .enjoy img{
+    width: 20vw;
+    height: 14px;
+}
+main .main3 .left2 .money{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: space-between;*/
+    border: 0;
+}
+main .main3 .left2 .money .price{
+    width: 45.33vw;
+    height: 30px;
+    border: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+main .main3 .left2 .money .price span{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255,0,0);
+    margin-left: 2.7vw;
+    line-height: 28px;
+}
+main .main3 .left2 .money a.same{
+    width: 16.6vw;
+    height: 23px;
+    padding: 0 2.4vw;
+    background-color: rgb(255,230,235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.2vw;
+    line-height: 23px;
+    margin-right: 2vw;
+    /*position: relative;*/
+    /*left: 29vw;*/
+    /*top: -29px;*/
+}
+main .main3 .left2 .money a.same span{
+    display: block;
+    flex-direction: column;
+    font-size: 12px;
+    color: rgb(255,0,54);
+}
+main .main3 .right2{
+    width: 46vw;
+    height: 277px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 5px 1vw;
+    box-sizing: border-box;
+}
+main .main3 .right2 div{
+    border: 1px solid rgb(237,237,237);
+}
+main .main3 .right2 .pic{
+    width: 37.5vw;
+    height: 138px;
+    padding: 15px 4vw;
+    border: 0;
+    background-color: rgba(0,0,0,0.03);
+    margin-right: 0;
+}
+main .main3 .right2 .pic img{
+    width: 36.8vw;
+    height: 138px;
+
+}
+main .main3 .right2 .pinpai{
+    display: flex;
+    border: 0;
+    position: relative;
+    top: -8px;
+    left: 3vw;
+}
+main .main3 .right2 .pinpai span{
+    display: inline-block;
+    padding: 0 1.33vw;
+    line-height: 18px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(206,175,163);
+}
+main .main3 .right2 .intro{
+    height: 52px;
+    display: flex;
+    border: 0;
+    flex-direction: column;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding:  10px 2.7vw 0;
+    position: relative;
+    top: -6px;
+}
+main .main3 .right2 .intro span{
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+main .main3 .right2 .enjoy{
+    width: 20vw;
+    height: 14px;
+    border: 0;
+    margin-left: 3vw;
+    margin-top: -8px;
+}
+main .main3 .right2 .enjoy img{
+    width: 20vw;
+    height: 14px;
+}
+main .main3 .right2 .money{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0;
+}
+main .main3 .right2 .money .price{
+    width: 45.33vw;
+    height: 30px;
+    border: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+main .main3 .right2 .money .price span{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255,0,0);
+    margin-left: 2.7vw;
+    line-height: 27px;
+}
+main .main3 .right2 .money a.same{
+    width: 16.6vw;
+    height: 23px;
+    padding: 0 2.4vw;
+    background-color: rgb(255,230,235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.2vw;
+    line-height: 23px;
+    margin-right: 2vw;
+    /*position: relative;*/
+    /*left: 29vw;*/
+    /*top: -29px;*/
+}
+main .main3 .right2 .money a.same span{
+    display: block;
+    flex-direction: column;
+    font-size: 12px;
+    color: rgb(255,0,54);
+}

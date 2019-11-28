@@ -1,0 +1,159 @@
+#wrapper{
+    width: 100vw;
+    margin: 0 auto;
+}
+#wrapper>div{
+    width: 100vw;
+    height: 100%;
+    border-top: 20px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    position: relative;
+}
+#search{
+    height: 45px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+#search .left{
+    position: absolute;
+    left: 3vw;
+    bottom: 12px;
+    width: 5.87vw;
+    height: 22px;
+}
+
+#search .left:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #5F646E;
+    border-left: 0.533vw solid #5F646E;
+    transform: translate(0.4rem, -50%) rotate(-45deg);
+}
+#search .right{
+    width: 83.2vw;
+    height: 30px;
+    line-height: 30px;
+    /*padding-left: 8vw;*/
+    color: #999;
+    font-size: 14px;
+    border-radius: 15px;
+    position: absolute;
+    left: 12.8vw;
+    top: 7px;
+    background-color: rgba(0,0,0,0.05);
+}
+#search .right:before{
+    content: '';
+    position: absolute;
+    left: 2.933vw;
+    bottom: 7px;
+    width: 3.73vw;
+    height: 14px;
+    background-image: url("../image/下载.png");
+    background-position: center;
+    background-size: 100% 100%;
+}
+#search .right span{
+    position: absolute;
+    left: 7.933vw;
+    bottom: 0;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+}
+#menu{
+    width: 18.6vw;
+    height: 667px;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow: auto;
+}
+#menu ul{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: visible;
+
+}
+#menu ul li{
+    width: 18.66vw;
+    height: 60px;
+    display: flex;
+    background-color: #f7f7f7;
+    margin-bottom: 2px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#menu ul li a{
+    color: #333;
+    font-size: 12px;
+    padding: 10px 5.333vw;
+    line-height: 40px;
+}
+#menu ul li a.four{
+    line-height: 20px;
+}
+#menu ul li.selected{
+    background-color: white;
+    border-left: 3px solid #FF0036;
+}
+#menu ul li.selected a{
+    color: #FF0036;
+}
+#list{
+    height: 667px;
+    position: absolute;
+    left: 18.666vw;
+    top: 45px;
+    overflow: auto;
+    padding: 12px 2.666vw 0;
+}
+#list>div{
+    display: none;
+}
+#list>div.selected{
+    display: block;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+}
+.part .title{
+    line-height: 44px;
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+    font-weight: bolder;
+}
+.part .row{
+    display: flex;
+    flex-direction: row;
+}
+.part .row a{
+    display: inline-block;
+    text-align: center;
+    width: 25.333vw;
+    height: 88px;
+}
+.part .row a img{
+    width: 17.066vw;
+    height: 64px;
+}
+.part .row a div{
+    line-height: 24px;
+    color: #333;
+    font-size: 11px;
+}

@@ -1,0 +1,298 @@
+.wrapper{
+    width: 1400px;
+    margin: auto;
+}
+.header{
+    height: 80px;
+    position: relative ;
+    z-index: 9;
+}
+.header .logo{
+    float: left;
+    /*width: 131px;*/
+    /*height: 37px;*/
+    margin-top: 23px;
+}
+.header .logo a{
+    float: left;
+    width: 131px;
+    height: 37px;
+    background-image: url("../images/qq_logo.png");
+    background-repeat: no-repeat;
+    text-indent: -999em;
+    overflow: hidden;
+    position: fixed;
+}
+.clear:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.header .search{
+    float: left;
+    width: 471px;
+    height: 30px;
+    /*border: 1px solid black;*/
+    margin: 23px 0 0 318px;
+    background-color: #f3f6f8;
+    border-radius: 20px;
+    /*position: fixed;*/
+}
+.header .search form .menu{
+    float: left;
+    width: 68px;
+    height: 30px;
+    cursor: pointer;
+}
+.header .search form .menu .btn{
+    width: 30px;
+    font-size: 14px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 19px;
+    /*border-right: 1px solid black;*/
+    position: relative;
+}
+.header .search form .menu .btn:after{
+    content: '';
+    position: absolute;
+    right: 1px;
+    top: 13px;
+    width: 10px;
+    height: 6px;
+    background-image: -webkit-image-set(url(//mat1.gtimg.com/pingjs/ext2020/qqindex2018/dist/img/so_arr.png) 1x, url(//mat1.gtimg.com/pingjs/ext2020/qqindex2018/dist/img/so_arr_2x.png) 2x);
+    background-repeat: no-repeat;
+}
+.header .search form .menu:hover .btn:after{
+    background-position: 0 -30px;
+    background-position-x: 0px;
+    background-position-y: -30px
+}
+/*.header .search form .menu:hover .arrow{*/
+     /*border-width: 0px 5px 10px 5px;*/
+ /*}*/
+.header .search form .menu .list{
+    width: 30px;
+    height: 279px;
+    padding: 0 19px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    line-height: 28px;
+    position: absolute;
+    background-color: white;
+    display: none;
+    color: #a8a8a8;
+}
+.header .search form .menu .list ul{
+    /*border: 1px solid black;*/
+    background-color: white;
+
+}
+.header .search form .menu .list ul li a{
+    color: #a8a8a8;
+    width: 28px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 3px solid white;
+}
+.header .search form .menu .list ul li a:hover{
+    color: black;
+    border-bottom: 3px solid red;
+}
+.header .search form .menu:hover .list{
+    display: block;
+}
+.header .search form .search_input{
+     display: block;
+     float: left;
+     width: 287px;
+     height: 23px;
+    line-height: 23px;
+     padding: 4px 10px;
+    border: none;
+    background-color: transparent;
+ }
+.header .search form .search_label{
+    display: block;
+    float: right;
+    width: 64px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    padding: 0 16px;
+    background-color: transparent;
+    top: -1px;
+}
+.header .search form .search_label .Btn {
+    position: relative;
+    top: 0px;
+    right: 15px;
+    background: none;
+    border: none;
+    height: 30px;
+    line-height: 31px;
+    padding: 0 16px;
+    color: #FFF;
+    background-color: #1479d7;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Microsoft Yahei', 'PingFang SC';
+    margin: 0;
+}
+.header .login{
+    float: right;
+    margin-top: 22px;
+}
+.header .login li{
+    float: left;
+    width: 40px;
+}
+.header .login li a{
+    float: left;
+    background-image: url("../images/icons.png");
+    background-repeat: no-repeat;
+    text-indent: -999em;
+    overflow: hidden;
+}
+.header .login li a.Qzone{
+    width: 35px;
+    height: 40px;
+    background-position: 0 -93px;
+}
+.header .login li a.Qzone:hover{
+    background-position: 0 -143px;
+}
+.header .login li a.Qmail{
+    width: 35px;
+    height: 40px;
+    background-position: 2px -188px;
+}
+.header .login li a.Qmail:hover{
+    background-position: 2px -238px;
+}
+.header .login li a.Qlogin{
+    width: 35px;
+    height: 35px;
+    background: #f5f5f5;
+    text-indent: 0;
+    border: 1px solid #ededed;
+    color: #60a5e4;
+    line-height: 35px;
+    text-align: center;
+}
+.header .login li a.Qlogin:hover{
+    border-color: #cae0f3;
+}
+/*导航开始----------------------------------------------------------------------*/
+.nav{
+    position: relative;
+    padding-bottom: 30px;
+    z-index: 8;
+}
+.nav ul.main{
+    /*width: 100%;*/
+    padding-left: 20px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 3px;
+}
+.nav ul.main li{
+    float: left;
+    width: 79px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.nav ul.main li a{
+    font-size: 18px;
+    color: white;
+    padding: 4px 5px;
+}
+.nav ul.main li a:hover{
+    color: #14539a;
+    background-color: #cbe1ed;
+}
+/*.nav ul.main .more{*/
+    /*position: relative;*/
+   /**/
+   /**/
+    /*cursor: pointer;*/
+/*}*/
+.nav ul.main .more .txt{
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    color: #FFF;
+}
+.nav .more .txt:before{
+    content: '.';
+    overflow: hidden;
+    text-indent: -999em;
+    position: absolute;
+    top: 22px;
+    right: 2px;
+    width: 10px;
+    height: 6px;
+    background-image: url("../images/nav_arr.png");
+}
+.nav .more:hover .txt:before{
+    background-position: 0 -30px;
+}
+.nav ul.main .more .list{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    height: 63px;
+    line-height: 63px;
+    top: 50px;
+    background-color: white;
+    display: none;
+}
+.nav ul.main .more:hover .list{
+    display: block;
+
+}
+.nav .more .list ul{
+    padding: 13px 0 13px 19px;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+}
+.nav .more .list ul li{
+    height: 32px;
+    line-height: 32px;
+}
+.nav .more .list ul a{
+    color: #555;
+}
+.nav ul.main .more .list ul a:hover{
+     color: #0c82ff;
+    background-color: transparent;
+}
+
+
+/*导航结束*/
+/*广告部分开始--------------------------------------------------------------------*/
+.ad{}
+.ad .left{
+    float: left;
+    background-image: url("../images/scydd_NQNW_20190723095453116705.jpg");
+    width: 920px;
+    height: 75px;
+}
+.ad .right{
+    margin-left: 960px;
+    height: 75px;
+    background-image: url("../images/ninja153907291410277.png");
+}
+/*广告部分结束*/
